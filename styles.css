@@ -1,0 +1,130 @@
+body {
+    text-align: center;
+    background-color: #214778;
+    color: red;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+
+.title {
+    text-decoration: underline overline;
+}
+
+.item {
+    background-color: #214778;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: red;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+
+
+}
+
+
+
+img {
+
+    max-height: 350px;
+    margin: 25px 0;
+    border-radius: 4px;
+}
+
+.headshot {
+
+    max-height: 375px;
+    margin: 40px 0 40px 0;
+    border-radius: 4px;
+}
+
+hr {
+    background-color: red;
+    border: none;
+    height: 1px;
+    box-shadow: 5px 5px 5px red;
+    margin: 25px 0 25px 0;
+}
+
+h1,
+h2 {
+    color: red;
+}
+
+.item:hover {
+    background-color: red;
+    box-shadow: 1px 1px 5px red;
+}
+
+p {
+    max-width: 800px;
+    padding: 0 0 10px 0;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.top {
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.column {
+    margin: 5px;
+
+}
+
+h2 {
+    margin: 0 0 15px 0;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.cat {
+    margin: 5px;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+	line-height: 50px;
+}
+
+.list {
+	display: flex;
+    justify-content: center;
+}
+
+.top.margin {
+	padding-bottom: 10px;
+}
